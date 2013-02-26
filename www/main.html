@@ -1,0 +1,34 @@
+<!--<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">-->
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>  
+  <title>Embedding SVG</title>
+    <script src="resources/js/jquery-1.8.3.min.js"></script>
+    <script src="cordova-2.2.0.js"></script>
+    <script src="resources.js"></script>
+    <script src="main.js"></script>
+    <script src="http://debug.phonegap.com/target/target-script-min.js#bdc2ce86-77f1-11e2-94ce-12313d1744da"></script>
+    <style>
+        body
+        {
+	        background-image: url(resources/images/svg/backgrounds/country.svg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <object data="resources/images/ghost.svg" width="1200px" height="1200px" type="image/svg+xml">
+        No SVG Support!
+    </object>
+    <svg width="300px" height="300px" xmlns="http://www.w3.org/2000/svg">
+	    <text x="10" y="50" font-size="30">My SVG</text>
+    </svg>
+</body>
+</html>
