@@ -13,7 +13,10 @@ $(window).resize(function () {
 });
 
 $(document).ready(function () {
-    
+
+    $("body").css("background-image", "url(resources/images/svg/backgrounds/house-with-snow.svg)");
+    $("body").css("background-repeat", "no-repeat");
+    $("body").css("background-size", "cover");
 });
 
 
