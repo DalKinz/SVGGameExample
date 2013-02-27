@@ -6,10 +6,22 @@
 }
 
 $(window).resize(function () {
+    var lion = $("#lion")[0];
+    lion.setAttribute("transform", "scale(2)")
+    lion.transform.baseVal.getItem(0).setScale(5,5);
+    
+
+    //$("#elephant")
+    //$("#giraffe")
+    //$("#ibex")
+    //$("#lion")
+    //$("#lioncub")
+    //$("#rhino")
+
     game.Width = window.innerWidth;
     game.Height = window.innerHeight;
     
-    resize(game.Width, game.Height);
+    //resize(game.Width, game.Height);
 });
 
 $(document).ready(function () {
