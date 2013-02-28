@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.carnagelabs.canvasGameExamples"
+        id        = "com.carnagelabs.svgGameExample"
         version   = "1.0.1">
             
-    <name>PhoneGap Game Examples</name>
-    <description>This app is intended to demonstrate the features of Apache Cordova (PhoneGap), and the HTML5 Canvas</description>
+    <name>SVG Game Example</name>
+    <description>This app is intended to demonstrate the features of Apache Cordova (PhoneGap), and SVG graphics</description>
 
     <author href="http://www.carnagelabs.com" email="mintassin@hotmail.com">Carnage Labs</author>
 
