@@ -31,12 +31,12 @@ $(document).ready(function () {
 
 
 function loadResources() {
-    $("#svgRhino").svg('get').load("resources/images/svg/african-animals/rhino.svg", { addTo: false, changeSize: true, onLoad: null });
-    $("#svgLionCub").svg('get').load("resources/images/svg/african-animals/lioncub.svg", { addTo: false, changeSize: true, onLoad: null });
-    $("#svgLion").svg('get').load("resources/images/svg/african-animals/lion.svg", { addTo: false, changeSize: true, onLoad: null });
-    $("#svgIbex").svg('get').load("resources/images/svg/african-animals/ibex.svg", { addTo: false, changeSize: true, onLoad: null });
-    $("#svgGiraffe").svg('get').load("resources/images/svg/african-animals/giraffe.svg", { addTo: false, changeSize: true, onLoad: null });
-    $("#svgElephant").svg('get').load("resources/images/svg/african-animals/elephant.svg", {addTo: false,changeSize: true,onLoad: null});
+    $("#svgRhino").svg("get").load("resources/images/svg/african-animals/rhino.svg", { addTo: false, changeSize: true, onLoad: null });
+    $("#svgLionCub").svg("get").load("resources/images/svg/african-animals/lioncub.svg", { addTo: false, changeSize: true, onLoad: null });
+    $("#svgLion").svg("get").load("resources/images/svg/african-animals/lion.svg", { addTo: false, changeSize: true, onLoad: null });
+    $("#svgIbex").svg("get").load("resources/images/svg/african-animals/ibex.svg", { addTo: false, changeSize: true, onLoad: null });
+    $("#svgGiraffe").svg("get").load("resources/images/svg/african-animals/giraffe.svg", { addTo: false, changeSize: true, onLoad: null });
+    $("#svgElephant").svg("get").load("resources/images/svg/african-animals/elephant.svg", {addTo: false,changeSize: true,onLoad: null});
 }
 
 function resize(width, height) {
