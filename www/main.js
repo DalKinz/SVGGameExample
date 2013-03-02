@@ -17,11 +17,11 @@ $(document).ready(function () {
     $("body").css("background-image", "url(resources/images/svg/backgrounds/house-with-snow.svg)");
     $("body").css("background-repeat", "no-repeat");
     $("body").css("background-size", "cover");
+    $("body").css("height", "100%");
 
     resize(game.Width, game.Height);
 
     $("#svgElephant").svg({ onLoad: null });
-    $("#svgLion").svg({ onLoad: null });
     $("#svgGiraffe").svg({ onLoad: null });
     $("#svgIbex").svg({ onLoad: null });
     $("#svgLion").svg({ onLoad: null });
@@ -42,20 +42,27 @@ function loadResources() {
 function resize(width, height) {
     var svg = $("#svgRhino").svg('get');
     if (svg) {
-        $("#svgElephant").css("width", "100px");
-        $("#svgElephant").css("height", "100px");
-        $("#svgLion").css("width", "100px");
-        $("#svgLion").css("height", "100px");
-        $("#svgGiraffe").css("width", "100px");
-        $("#svgGiraffe").css("height", "100px");
-        $("#svgIbex").css("width", "100px");
-        $("#svgIbex").css("height", "100px");
-        $("#svgLion").css("width", "100px");
-        $("#svgLion").css("height", "100px");
-        $("#svgLionCub").css("width", "100px");
-        $("#svgLionCub").css("height", "100px");
-        $("#svgRhino").css("width", "100px");
-        $("#svgRhino").css("height", "100px");
+        //svg.change(root, { currentScale: 5 });
+
+        
+
+        
+        //svg.configure({ viewBox: '0 0 1000 1000' }, true);
+
+        //$("#svgElephant").css("width", "100px");
+        //$("#svgElephant").css("height", "100px");
+        //$("#svgLion").css("width", "100px");
+        //$("#svgLion").css("height", "100px");
+        //$("#svgGiraffe").css("width", "100px");
+        //$("#svgGiraffe").css("height", "100px");
+        //$("#svgIbex").css("width", "100px");
+        //$("#svgIbex").css("height", "100px");
+        //$("#svgLion").css("width", "100px");
+        //$("#svgLion").css("height", "100px");
+        //$("#svgLionCub").css("width", "100px");
+        //$("#svgLionCub").css("height", "100px");
+        //$("#svgRhino").css("width", "100px");
+        //$("#svgRhino").css("height", "100px");
 
         game.ScaleFactorX = game.Width / game.InitialWidth;
         game.ScaleFactorY = game.Height / game.InitialHeight;
